@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+body{
+    background-image: linear-gradient(to right top, #2b3705, #004d7a, #008793, #00bf72, #a8eb12);
+}
+
+.x {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+label {
+    display: block;
+    padding: 10px 0 3px 0;
+    color: rgb(217, 255, 4);
+    /* color: rgb(175, 189, 93); */
+}
+.checkbox-label {
+    display: flex;
+    align-items: flex-start;
+}
+
+.whole-container {
+    padding: 30px;
+    width: 400px;
+    border-radius: 10px;
+    /* box-shadow: 22px -25px 113px 20px rgba(229, 237, 6, 0.75); */
+}
+
+.form-group {
+    margin: 10px 0;
+}
+
+.form-control {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+
+}
+
+.btn {
+    width:100px;
+    height: 100%;
+    margin: 5px;
+    padding: 15px 0;
+    border-radius: 5px;
+    border: 1px solid lightgreen;
+    background: transparent;
+    color:lightgreen ;
+    position: relative;
+   
+}
+.layer{
+    width: 0%;
+    height: 100%;
+    background-color: lawngreen;
+    position: absolute;
+    bottom:0;
+    left: 0;
+    border-radius: 5px;
+    z-index: -1;
+    transition: 0.4s linear;
+   
+}
+.btn:hover .layer{
+    width: 100%;
+  
+    
+   
+  
+
+}
+.btn:hover{
+    border:none;
+    color: rgb(0, 0, 0);
+   
+}
+a {
+    text-decoration: none;
+}
+.header-designx {
+    font-size: 80px;
+    color: white;
+    user-select: none;
+}
+.singup-clr {
+    color: rgb(217, 255, 4);
+}
+
+
+
+/* .btn{
+    padding: 10px;
+    background-color: lawngreen;
+    border: none;
+    margin: 20px 0 0 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    opacity: 0.8;
+    padding: 10px 25px;
+
+    }
+    .btn:hover{
+        opacity: 1;
+    }
+    .checkbox-sec{
+        display: flex;
+        gap: 10px;
+        padding: 10px 0;
+        align-items: center;
+       
+        
+    } */
